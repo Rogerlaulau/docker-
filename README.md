@@ -1,8 +1,6 @@
 # docker
-=======
-# Create a docker image with a simple web service
-Tutorial source from Youtube channel thenewboston https://www.youtube.com/watch?v=BG3f0E_4HiE&list=PL6gx4Cwl9DGBkvpSIgwchk0glHLz7CQ-7&index=11
 
+# Create a docker image with a simple web service
 
 ## Create a **Dockerfile** without extension
 ```
