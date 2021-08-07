@@ -15,10 +15,9 @@ CMD ["npm", "start"]
 ```
 
 ## Build image
-```docker build .
+```docker build .```
 or
-docker build  -t [image name]:[status] . 
-```
+```docker build  -t [image name]:[status] . ```
 
 ## Run docker
 ```
@@ -34,13 +33,14 @@ To save an image to any file path or shared NFS place see the following example.
 
 Get the image id by doing:
 
-```docker images```
+```docker images```   
 Say you have an image with id "matrix-data".
 
 Save the image with id:   
-```docker save -o /home/matrix/matrix-data.tar matrix-data```
+```docker save -o /home/matrix/matrix-data.tar matrix-data```   
 https://stackoverflow.com/questions/23935141/how-to-copy-docker-images-from-one-host-to-another-without-using-a-repository
 
+![](save_image.png "save image")
 
 
 # Extra docker commands
